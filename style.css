@@ -1,0 +1,124 @@
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+
+    /* Beautiful Gradient Background */
+    background: linear-gradient(135deg, #667eea, #764ba2);
+
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main Box */
+.container {
+    width: 380px;
+    padding: 35px;
+
+    background: rgba(255, 255, 255, 0.95);
+
+    border-radius: 20px;
+
+    box-shadow:
+        0 15px 35px rgba(0, 0, 0, 0.25);
+
+    text-align: center;
+}
+
+/* Heading */
+h2 {
+    color: #333;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+/* Labels */
+label {
+    display: block;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 6px;
+
+    font-weight: bold;
+    color: #444;
+}
+
+/* Input Fields */
+input {
+    width: 100%;
+    padding: 13px;
+
+    border: 1px solid #ccc;
+    border-radius: 8px;
+
+    font-size: 15px;
+
+    outline: none;
+}
+
+/* Input Focus */
+input:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 5px rgba(102, 126, 234, 0.5);
+}
+
+/* Buttons */
+button {
+    width: 100%;
+    padding: 13px;
+
+    margin-top: 20px;
+
+    background: linear-gradient(135deg, #667eea, #764ba2);
+
+    color: white;
+
+    border: none;
+    border-radius: 8px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+/* Button Hover */
+button:hover {
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 5px 15px rgba(0, 0, 0, 0.25);
+}
+
+/* Paragraph */
+p {
+    margin-top: 20px;
+    color: #555;
+}
+
+/* Link */
+a {
+    text-decoration: none;
+}
+
+/* Mobile Responsive */
+@media (max-width: 500px) {
+
+    .container {
+        width: 90%;
+        padding: 25px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+}
